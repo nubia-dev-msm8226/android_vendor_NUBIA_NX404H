@@ -212,7 +212,6 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
-    vendor/NUBIA/NX404H/proprietary/vendor/lib/libmmcamera_gbao_imx214_lc898122_eeprom.so:system/vendor/lib/libmmcamera_gbao_imx214_lc898122_eeprom.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libmmcamera_hi256.so:system/vendor/lib/libmmcamera_hi256.so \
