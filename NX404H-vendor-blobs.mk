@@ -46,6 +46,13 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/NX404H/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/NUBIA/NX404H/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/NUBIA/NX404H/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/NUBIA/NX404H/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/NUBIA/NX404H/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/NUBIA/NX404H/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/NUBIA/NX404H/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/NUBIA/NX404H/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/NUBIA/NX404H/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/NUBIA/NX404H/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/NUBIA/NX404H/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/NUBIA/NX404H/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/NUBIA/NX404H/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
@@ -152,6 +159,7 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+	vendor/NUBIA/NX404H/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
