@@ -142,6 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/NX404H/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/NUBIA/NX404H/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/NUBIA/NX404H/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
+	vendor/NUBIA/NX404H/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/NUBIA/NX404H/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
