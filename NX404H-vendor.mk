@@ -159,7 +159,7 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/NUBIA/NX404H/proprietary/vendor/lib/hw/sensors.msm8228.so:system/vendor/lib/hw/sensors.msm8228.so \
+    vendor/NUBIA/NX404H/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
