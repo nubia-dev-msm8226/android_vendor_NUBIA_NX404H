@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/NX404H/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/NUBIA/NX404H/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/NUBIA/NX404H/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
+    vendor/NUBIA/NX404H/proprietary/vendor/lib/hw/activity_recognition.msm8226.so:system/vendor/lib/hw/activity_recognition.msm8226.so \
     vendor/NUBIA/NX404H/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/NUBIA/NX404H/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/NUBIA/NX404H/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
@@ -128,7 +128,7 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/NX404H/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/NUBIA/NX404H/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/NUBIA/NX404H/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
-    vendor/NUBIA/NX404H/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
+    vendor/NUBIA/NX404H/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/NUBIA/NX404H/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/NUBIA/NX404H/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
