@@ -19,6 +19,8 @@ DEVICE_PACKAGE_OVERLAYS += vendor/NUBIA/NX404H/overlay
 
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
+    ZTE_IRControl \
+    uei_sdk \
     libtime_genoff \
     libTimeService \
     libperipheral_client \
