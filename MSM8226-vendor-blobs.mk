@@ -68,7 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/MSM8226/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/NUBIA/MSM8226/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/NUBIA/MSM8226/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/NUBIA/MSM8226/proprietary/lib/hw/vendor.camera.msm8226.so:system/lib/hw/vendor.camera.msm8226.so \
+    vendor/NUBIA/MSM8226/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/NUBIA/MSM8226/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/NUBIA/MSM8226/proprietary/lib/libchromatix_imx135_069_liveshot.so:system/lib/libchromatix_imx135_069_liveshot.so \
     vendor/NUBIA/MSM8226/proprietary/lib/libchromatix_imx135_front_liveshot.so:system/lib/libchromatix_imx135_front_liveshot.so \
@@ -128,42 +128,8 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/MSM8226/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/NUBIA/MSM8226/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0076_Generic_I2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0076_Generic_I2C_NCD_Signed_configdata.ncd \
-    vendor/NUBIA/MSM8226/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0076_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0076_Generic_I2C_NCD_Unsigned_configdata.ncd \
-    vendor/NUBIA/MSM8226/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0076_Generic_PreI2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0076_Generic_PreI2C_NCD_Signed_configdata.ncd \
-    vendor/NUBIA/MSM8226/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0076_Generic_PreI2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0076_Generic_PreI2C_NCD_Unsigned_configdata.ncd \
-    vendor/NUBIA/MSM8226/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0087_Generic_I2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0087_Generic_I2C_NCD_Signed_configdata.ncd \
-    vendor/NUBIA/MSM8226/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0087_Generic_PreI2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0087_Generic_PreI2C_NCD_Signed_configdata.ncd \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_dw9716_camcorder.so:system/vendor/lib/libactuator_dw9716_camcorder.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_dw9716_camera.so:system/vendor/lib/libactuator_dw9716_camera.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_iu074_camcorder.so:system/vendor/lib/libactuator_iu074_camcorder.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_iu074_camera.so:system/vendor/lib/libactuator_iu074_camera.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_ov12830_camcorder.so:system/vendor/lib/libactuator_ov12830_camcorder.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_ov12830_camera.so:system/vendor/lib/libactuator_ov12830_camera.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_ov8825_camcorder.so:system/vendor/lib/libactuator_ov8825_camcorder.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_ov8825_camera.so:system/vendor/lib/libactuator_ov8825_camera.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_ROHM_BU64243GWZ_camcorder.so:system/vendor/lib/libactuator_ROHM_BU64243GWZ_camcorder.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_ROHM_BU64243GWZ_camera.so:system/vendor/lib/libactuator_ROHM_BU64243GWZ_camera.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_ad5816_camcorder.so:system/vendor/lib/libactuator_zte_ad5816_camcorder.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_ad5816_camera.so:system/vendor/lib/libactuator_zte_ad5816_camera.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_ad5816_lc898122_camcorder.so:system/vendor/lib/libactuator_zte_ad5816_lc898122_camcorder.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_ad5816_lc898122_camera.so:system/vendor/lib/libactuator_zte_ad5816_lc898122_camera.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_app_for_qtech_camcorder.so:system/vendor/lib/libactuator_zte_app_for_qtech_camcorder.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_app_for_qtech_camera.so:system/vendor/lib/libactuator_zte_app_for_qtech_camera.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_mitsumi_lc898122_camcorder.so:system/vendor/lib/libactuator_zte_mitsumi_lc898122_camcorder.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_mitsumi_lc898122_camera.so:system/vendor/lib/libactuator_zte_mitsumi_lc898122_camera.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_mitsumi_lc898122_for_gbao_camcorder.so:system/vendor/lib/libactuator_zte_mitsumi_lc898122_for_gbao_camcorder.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_mitsumi_lc898122_for_gbao_camera.so:system/vendor/lib/libactuator_zte_mitsumi_lc898122_for_gbao_camera.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_mitsumi_ois_for_sharp_camcorder.so:system/vendor/lib/libactuator_zte_mitsumi_ois_for_sharp_camcorder.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_mitsumi_ois_for_sharp_camera.so:system/vendor/lib/libactuator_zte_mitsumi_ois_for_sharp_camera.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_rohm_bu64291gwz_camcorder.so:system/vendor/lib/libactuator_zte_rohm_bu64291gwz_camcorder.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_rohm_bu64291gwz_camera.so:system/vendor/lib/libactuator_zte_rohm_bu64291gwz_camera.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_rohm_bu64291gwz_z7_front_camcorder.so:system/vendor/lib/libactuator_zte_rohm_bu64291gwz_z7_front_camcorder.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libactuator_zte_rohm_bu64291gwz_z7_front_camera.so:system/vendor/lib/libactuator_zte_rohm_bu64291gwz_z7_front_camera.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
@@ -173,17 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx132_liveshot.so:system/vendor/lib/libchromatix_imx132_liveshot.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx132_preview.so:system/vendor/lib/libchromatix_imx132_preview.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx132_snapshot.so:system/vendor/lib/libchromatix_imx132_snapshot.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx134_default_video.so:system/vendor/lib/libchromatix_imx134_default_video.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx134_hfr_120.so:system/vendor/lib/libchromatix_imx134_hfr_120.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx134_hfr_60.so:system/vendor/lib/libchromatix_imx134_hfr_60.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx134_preview.so:system/vendor/lib/libchromatix_imx134_preview.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx134_snapshot.so:system/vendor/lib/libchromatix_imx134_snapshot.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx135_069_common.so:system/vendor/lib/libchromatix_imx135_069_common.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx135_069_default_video.so:system/vendor/lib/libchromatix_imx135_069_default_video.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx135_069_hfr_120.so:system/vendor/lib/libchromatix_imx135_069_hfr_120.so \
@@ -247,35 +202,6 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx135_z5s_preview.so:system/vendor/lib/libchromatix_imx135_z5s_preview.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx135_z5s_snapshot.so:system/vendor/lib/libchromatix_imx135_z5s_snapshot.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx135_z5s_video_hd.so:system/vendor/lib/libchromatix_imx135_z5s_video_hd.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_default_video_4k.so:system/vendor/lib/libchromatix_imx214_default_video_4k.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_hfr_120.so:system/vendor/lib/libchromatix_imx214_hfr_120.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_nightmode_1.so:system/vendor/lib/libchromatix_imx214_nightmode_1.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_nightmode_2.so:system/vendor/lib/libchromatix_imx214_nightmode_2.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_nightmode.so:system/vendor/lib/libchromatix_imx214_nightmode.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_common.so:system/vendor/lib/libchromatix_imx214_ois_sharp_common.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_default_video_4k.so:system/vendor/lib/libchromatix_imx214_ois_sharp_default_video_4k.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_default_video.so:system/vendor/lib/libchromatix_imx214_ois_sharp_default_video.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_hfr_120.so:system/vendor/lib/libchromatix_imx214_ois_sharp_hfr_120.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_hfr_60.so:system/vendor/lib/libchromatix_imx214_ois_sharp_hfr_60.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_liveshot.so:system/vendor/lib/libchromatix_imx214_ois_sharp_liveshot.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_nightmode_1.so:system/vendor/lib/libchromatix_imx214_ois_sharp_nightmode_1.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_nightmode_2.so:system/vendor/lib/libchromatix_imx214_ois_sharp_nightmode_2.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_nightmode.so:system/vendor/lib/libchromatix_imx214_ois_sharp_nightmode.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_preview.so:system/vendor/lib/libchromatix_imx214_ois_sharp_preview.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_previewzsl.so:system/vendor/lib/libchromatix_imx214_ois_sharp_previewzsl.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_snapshot.so:system/vendor/lib/libchromatix_imx214_ois_sharp_snapshot.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_preview4zsl.so:system/vendor/lib/libchromatix_imx214_preview4zsl.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/vendor/lib/libchromatix_imx214_preview.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx214_snapshot.so:system/vendor/lib/libchromatix_imx214_snapshot.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx220_common.so:system/vendor/lib/libchromatix_imx220_common.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx220_default_video.so:system/vendor/lib/libchromatix_imx220_default_video.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx220_hfr_120.so:system/vendor/lib/libchromatix_imx220_hfr_120.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx220_nightmode_1.so:system/vendor/lib/libchromatix_imx220_nightmode_1.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx220_nightmode.so:system/vendor/lib/libchromatix_imx220_nightmode.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx220_preview.so:system/vendor/lib/libchromatix_imx220_preview.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_imx220_snapshot.so:system/vendor/lib/libchromatix_imx220_snapshot.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_ov2720_common.so:system/vendor/lib/libchromatix_ov2720_common.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_ov2720_default_video.so:system/vendor/lib/libchromatix_ov2720_default_video.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libchromatix_ov2720_hfr.so:system/vendor/lib/libchromatix_ov2720_hfr.so \
