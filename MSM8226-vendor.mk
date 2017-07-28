@@ -41,4 +41,4 @@ PRODUCT_PACKAGES += \
     libdsutils \
     libuiblur
 
-$(call inherit-product, vendor/NUBIA/NX404H/NX404H-vendor-blobs.mk)
+$(call inherit-product, vendor/NUBIA/MSM8226/MSM8226-vendor-blobs.mk)
