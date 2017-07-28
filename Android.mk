@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),NX404H)
+ifeq ($(TARGET_DEVICE),MSM8226)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libHevcSwDecoder
