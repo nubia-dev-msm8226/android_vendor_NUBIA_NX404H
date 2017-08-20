@@ -19,6 +19,7 @@ DEVICE_PACKAGE_OVERLAYS += vendor/NUBIA/MSM8226/overlay
 
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
+    libtime_genoff \
     libTimeService \
     libperipheral_client \
     libscale \
