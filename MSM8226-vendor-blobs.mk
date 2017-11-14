@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/NUBIA/MSM8226/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/NUBIA/MSM8226/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/NUBIA/MSM8226/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/NUBIA/MSM8226/proprietary/bin/perfd:system/bin/perfd \
     vendor/NUBIA/MSM8226/proprietary/bin/uiautomator:system/bin/uiautomator \
     vendor/NUBIA/MSM8226/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
@@ -304,4 +303,5 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/NUBIA/MSM8226/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so
+    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
+    vendor/NUBIA/MSM8226/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so
