@@ -296,6 +296,6 @@ vendor/NUBIA/X9180/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/l
     vendor/NUBIA/X9180/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/vendor/NUBIA/X9180/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
-vendor/NUBIA/X9180/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-vendor/NUBIA/X9180/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so
+    vendor/NUBIA/X9180/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
+    vendor/NUBIA/X9180/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/NUBIA/X9180/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so
