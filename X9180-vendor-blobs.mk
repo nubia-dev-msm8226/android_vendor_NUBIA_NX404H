@@ -15,20 +15,20 @@
 # setup-makefiles.sh
 
 PRODUCT_COPY_FILES += \
-    vendor/NUBIA/X9180/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/NUBIA/X9180/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/NUBIA/X9180/proprietary/bin/perfd:system/bin/perfd \
-    vendor/NUBIA/X9180/proprietary/bin/uiautomator:system/bin/uiautomator \
-    vendor/NUBIA/X9180/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/fmconfig:system/vendor/bin/fmconfig \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/uiautomator:system/vendor/bin/uiautomator \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/gpsone_daemon:system/vendor/bin/gpsone_daemon \
     vendor/NUBIA/X9180/proprietary/bin/tp_node.sh:system/bin/tp_node.sh \
-    vendor/NUBIA/X9180/proprietary/bin/garden_app:system/bin/garden_app \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
     vendor/NUBIA/X9180/proprietary/lib/libBlurEffect.so:system/lib/libBlurEffect.so \
     vendor/NUBIA/X9180/proprietary/lib/libnubia_runtime.so:system/lib/libnubia_runtime.so \
-    vendor/NUBIA/X9180/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/NUBIA/X9180/proprietary/bin/location-mq:system/bin/location-mq \
-    vendor/NUBIA/X9180/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/NUBIA/X9180/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-    vendor/NUBIA/X9180/proprietary/bin/quipc_main:system/bin/quipc_main \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/location-mq:system/vendor/bin/location-mq \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/quipc_igsn:system/vendor/bin/quipc_igsn \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/quipc_main:system/vendor/bin/quipc_main \
     vendor/NUBIA/X9180/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/NUBIA/X9180/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/NUBIA/X9180/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/hw/activity_recognition.msm8226.so:system/vendor/lib/hw/activity_recognition.msm8226.so \
-    vendor/NUBIA/X9180/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/NUBIA/X9180/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/NUBIA/X9180/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/NUBIA/X9180/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -57,9 +57,9 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/NUBIA/X9180/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/NUBIA/X9180/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/NUBIA/X9180/proprietary/etc/firmware/cyttsp4_fw.bin:system/etc/firmware/cyttsp4_fw.bin \
-    vendor/NUBIA/X9180/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
-    vendor/NUBIA/X9180/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/NUBIA/X9180/proprietary/etc/firmware/cyttsp4_fw.vendor/bin:system/etc/firmware/cyttsp4_fw.vendor/bin \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/mm-qcamera-app:system/vendor/bin/mm-qcamera-app \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/NUBIA/X9180/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/NUBIA/X9180/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/NUBIA/X9180/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
@@ -132,7 +132,7 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/NUBIA/X9180/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/NUBIA/X9180/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
@@ -143,28 +143,28 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/NUBIA/X9180/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/NUBIA/X9180/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
-    vendor/NUBIA/X9180/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/NUBIA/X9180/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/NUBIA/X9180/proprietary/bin/dun-server:system/bin/dun-server \
-    vendor/NUBIA/X9180/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/NUBIA/X9180/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/NUBIA/X9180/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/NUBIA/X9180/proprietary/bin/radish:system/bin/radish \
-    vendor/NUBIA/X9180/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/NUBIA/X9180/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/dun-server:system/vendor/bin/dun-server \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/radish:system/vendor/bin/radish \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/NUBIA/X9180/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/NUBIA/X9180/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/NUBIA/X9180/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/NUBIA/X9180/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/NUBIA/X9180/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
-    vendor/NUBIA/X9180/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/NUBIA/X9180/proprietary/vendor/vendor/bin/thermal-engine:system/vendor/vendor/bin/thermal-engine \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
@@ -215,7 +215,6 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
@@ -262,9 +261,7 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+vendor/NUBIA/X9180/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
@@ -296,12 +293,9 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so
+    vendor/NUBIA/X9180/proprietary/vendor/lib/vendor/NUBIA/X9180/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
+vendor/NUBIA/X9180/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+vendor/NUBIA/X9180/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so
