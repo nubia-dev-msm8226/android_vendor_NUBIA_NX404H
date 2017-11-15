@@ -164,7 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/NUBIA/X9180/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
-    vendor/NUBIA/X9180/proprietary/vendor/vendor/bin/thermal-engine:system/vendor/vendor/bin/thermal-engine \
+    vendor/NUBIA/X9180/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
