@@ -57,7 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/NUBIA/X9180/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/NUBIA/X9180/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/NUBIA/X9180/proprietary/etc/firmware/cyttsp4_fw.vendor/bin:system/etc/firmware/cyttsp4_fw.vendor/bin \
+    vendor/NUBIA/X9180/proprietary/etc/firmware/cyttsp4_fw.bin:system/etc/firmware/cyttsp4_fw.bin \
     vendor/NUBIA/X9180/proprietary/vendor/bin/mm-qcamera-app:system/vendor/bin/mm-qcamera-app \
     vendor/NUBIA/X9180/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/NUBIA/X9180/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
