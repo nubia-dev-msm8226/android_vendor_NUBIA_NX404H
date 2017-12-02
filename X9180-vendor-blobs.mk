@@ -58,9 +58,9 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/NUBIA/X9180/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/NUBIA/X9180/proprietary/etc/firmware/cyttsp4_fw.bin:system/etc/firmware/cyttsp4_fw.bin \
-    vendor/NUBIA/X9180/proprietary/vendor/bin/mm-qcamera-app:system/vendor/bin/mm-qcamera-app \
-    vendor/NUBIA/X9180/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/hw/camera.vendor.msm8226.so:system/vendor/lib/hw/camera.vendor.msm8226.so \
+    vendor/NUBIA/X9180/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
+    vendor/NUBIA/X9180/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/NUBIA/X9180/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/NUBIA/X9180/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/NUBIA/X9180/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/NUBIA/X9180/proprietary/lib/libDocPretty.so:system/lib/libDocPretty.so \
@@ -161,8 +161,8 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/NUBIA/X9180/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/NUBIA/X9180/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/NUBIA/X9180/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/hw/sensors.oem.so:system/vendor/lib/hw/sensors.oem.so \
+    vendor/NUBIA/X9180/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/NUBIA/X9180/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/NUBIA/X9180/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -261,7 +261,7 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-vendor/NUBIA/X9180/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/NUBIA/X9180/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
