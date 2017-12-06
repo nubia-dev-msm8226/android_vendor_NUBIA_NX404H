@@ -45,6 +45,13 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/NUBIA/X9180/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/NUBIA/X9180/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/NUBIA/X9180/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/NUBIA/X9180/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/NUBIA/X9180/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/NUBIA/X9180/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/NUBIA/X9180/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/NUBIA/X9180/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/NUBIA/X9180/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/NUBIA/X9180/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/NUBIA/X9180/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/NUBIA/X9180/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
@@ -148,7 +155,7 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
+    vendor/NUBIA/X9180/proprietary/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so:system/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so \
     vendor/NUBIA/X9180/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/NUBIA/X9180/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/NUBIA/X9180/proprietary/vendor/bin/dun-server:system/vendor/bin/dun-server \
@@ -166,11 +173,13 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/NUBIA/X9180/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+    vendor/NUBIA/X9180/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
+    vendor/NUBIA/X9180/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/NUBIA/X9180/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -298,4 +307,8 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so
+    vendor/NUBIA/X9180/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/NUBIA/X9180/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
+    vendor/NUBIA/X9180/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
+    vendor/NUBIA/X9180/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
+    vendor/NUBIA/X9180/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so 
