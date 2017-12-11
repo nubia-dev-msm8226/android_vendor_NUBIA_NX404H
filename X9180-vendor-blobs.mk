@@ -170,7 +170,7 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/NUBIA/X9180/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/NUBIA/X9180/proprietary/vendor/lib/hw/sensors.oem.so:system/vendor/lib/hw/sensors.oem.so \
-    vendor/NUBIA/X9180/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
+    vendor/NUBIA/X9180/proprietary/vendor/lib/hw/sensors.vendor.msm8226.so:system/vendor/lib/hw/sensors.vendor.msm8226.so \
     vendor/NUBIA/X9180/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
