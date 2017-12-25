@@ -312,3 +312,9 @@ PRODUCT_COPY_FILES += \
     vendor/NUBIA/X9180/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
     vendor/NUBIA/X9180/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so 
+
+# FM (OnePlus OPR6.170623.013)
+PRODUCT_COPY_FILES += \
+    vendor/NUBIA/X9180/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/NUBIA/X9180/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so
+ +

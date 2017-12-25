@@ -27,9 +27,8 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     TimeService \
     shutdownlistener \
-    qcrilmsgtunnel
-#    com.qualcomm.location \
-
+    qcrilmsgtunnel \
+    vendor.qti.hardware.fm@1.0
 PRODUCT_PACKAGES += \
     libqmi \
     libmdmdetect \
